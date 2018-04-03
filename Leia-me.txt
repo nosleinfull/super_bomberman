@@ -1,0 +1,10 @@
+Para rodar a parti do código é necessário
+instalar o interpretador Python (preferêncialmente 2.7)
+
+E API PyGame para o interpretador instalado.
+
+O Código a ser interpretador é o Menu.py
+
+http://www.py2exe.org/
+
+https://www.python.org/download/

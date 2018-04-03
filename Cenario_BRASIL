@@ -1,0 +1,81 @@
+[mapa]
+ 
+cenario=###################################
+		#.................................#
+		#........................*........#
+		#.................................#
+        #....***..****.***..****.*.*......#
+        #....*..*.*..*.*..*.*....*.*......#
+        #....****.***..****.****.*.*......#
+		#....*..*.*..*.*..*....*.*.*......#
+        #....***..*..*.*..*.****.*.****...#
+        #.................................#
+		#.................................#
+		###################################
+
+[#]
+nome    = parede
+sprite  = Sprites\parede.png
+largura = 44
+altura  = 44
+lista_comandos = 0
+limite_mudanca_estados = 0
+tempo_duracao_frames = 0
+
+[*]
+nome   = tijolo
+sprite = Sprites\tijolo.png
+largura = 44
+altura  = 44
+lista_comandos = 0
+limite_mudanca_estados = 4
+tempo_duracao_frames = 20
+
+
+[.]
+nome = chao
+sprite = Sprites\chao.png
+largura = 44
+altura  = 44
+lista_comandos = 0
+limite_mudanca_estados = 0
+tempo_duracao_frames = 0
+
+
+[P]
+nome   = personagem
+sprite = Sprites\personagem.png
+largura = 44
+altura  = 64
+lista_comandos = 273 274 275 276 100 101 102
+limite_mudanca_estados = 4
+tempo_duracao_frames = 25
+
+
+[Q]
+nome   = personagem
+sprite = Sprites\personagem2.png
+largura = 44
+altura  = 64
+lista_comandos = 264 258 262 260 263 265 259
+limite_mudanca_estados = 4
+tempo_duracao_frames = 25
+
+
+[B]
+nome   = bomba
+sprite = Sprites\bomba.png
+largura = 44
+altura  = 44
+lista_comandos = 0
+limite_mudanca_estados = 12
+tempo_duracao_frames = 144
+
+[E]
+nome   = explosao
+sprite = Sprites\explosao.png
+largura = 44
+altura  = 44    
+lista_comandos = 0
+limite_mudanca_estados = 5
+tempo_duracao_frames = 30
