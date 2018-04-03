@@ -13,7 +13,7 @@ cenario=###################
 
 [#]
 nome    = parede
-sprite  = Sprites\parede.png
+sprite  = Sprites/parede.png
 largura = 44
 altura  = 44
 lista_comandos = 0
@@ -22,7 +22,7 @@ tempo_duracao_frames = 0
 
 [*]
 nome   = tijolo
-sprite = Sprites\tijolo.png
+sprite = Sprites/tijolo.png
 largura = 44
 altura  = 44
 lista_comandos = 0
@@ -32,7 +32,7 @@ tempo_duracao_frames = 20
 
 [.]
 nome = chao
-sprite = Sprites\chao.png
+sprite = Sprites/chao.png
 largura = 44
 altura  = 44
 lista_comandos = 0
@@ -42,7 +42,7 @@ tempo_duracao_frames = 0
 
 [P]
 nome   = personagem
-sprite = Sprites\personagem.png
+sprite = Sprites/personagem.png
 largura = 44
 altura  = 64
 lista_comandos = 273 274 275 276 100 101 102
@@ -52,7 +52,7 @@ tempo_duracao_frames = 25
 
 [Q]
 nome   = personagem
-sprite = Sprites\personagem2.png
+sprite = Sprites/personagem2.png
 largura = 44
 altura  = 64
 lista_comandos = 264 258 262 260 263 265 259
@@ -62,7 +62,7 @@ tempo_duracao_frames = 25
 
 [B]
 nome   = bomba
-sprite = Sprites\bomba.png
+sprite = Sprites/bomba.png
 largura = 44
 altura  = 44
 lista_comandos = 0
@@ -71,7 +71,7 @@ tempo_duracao_frames = 144
 
 [E]
 nome   = explosao
-sprite = Sprites\explosao.png
+sprite = Sprites/explosao.png
 largura = 44
 altura  = 44    
 lista_comandos = 0

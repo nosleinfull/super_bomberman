@@ -41,7 +41,8 @@ Está autorizado a distribuição dos códigos fontes, dados e executáveis para
 # Instalação
 
 Para executar o jogo é necessário:
-- Instalar o interpretador Python (preferêncialmente 2.7 - https://www.python.org/download/)
-- Instalar a API PyGame para a versão do interpretador instalado (http://www.py2exe.org/)
+- Instalar o interpretador Python (versão 2.7 - https://www.python.org/download/)
+- Instalar a API PyGame para a versão do interpretador instalado  (https://www.pygame.org/wiki/GettingStarted)
+- Para criar um executavel para Windows utilizar py2exe (http://www.py2exe.org/)
 
 O Código a ser interpretador é o Menu.py
